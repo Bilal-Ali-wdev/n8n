@@ -4,7 +4,7 @@ import express from "express"
 app.use(express.json())
 
 app.get("/", (req, res) => {
-  res.send("Hello World!")
+  res.send("Hello!")
 })
 
 app.listen(3000, () => {
